@@ -1,8 +1,7 @@
 const mongoose = require('mongoose')
 
 
-//const url = 'mongodb://karia:koulu18@ds151282.mlab.com:51282/blogi';
-//mongoose.connect(url);
+
 const blogSchema = new mongoose.Schema({
     title: String,
     author: String,
